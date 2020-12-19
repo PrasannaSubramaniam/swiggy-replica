@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/swiggy-replica/static/css/main.bd6d5ac8.chunk.css",
+    "main.js": "/swiggy-replica/static/js/main.6ad8ea4a.chunk.js",
+    "main.js.map": "/swiggy-replica/static/js/main.6ad8ea4a.chunk.js.map",
+    "runtime-main.js": "/swiggy-replica/static/js/runtime-main.32cb39ff.js",
+    "runtime-main.js.map": "/swiggy-replica/static/js/runtime-main.32cb39ff.js.map",
+    "static/js/2.69e1953c.chunk.js": "/swiggy-replica/static/js/2.69e1953c.chunk.js",
+    "static/js/2.69e1953c.chunk.js.map": "/swiggy-replica/static/js/2.69e1953c.chunk.js.map",
+    "index.html": "/swiggy-replica/index.html",
+    "precache-manifest.120b17a31138374ecf4e43aac46039e2.js": "/swiggy-replica/precache-manifest.120b17a31138374ecf4e43aac46039e2.js",
+    "service-worker.js": "/swiggy-replica/service-worker.js",
+    "static/css/main.bd6d5ac8.chunk.css.map": "/swiggy-replica/static/css/main.bd6d5ac8.chunk.css.map",
+    "static/js/2.69e1953c.chunk.js.LICENSE.txt": "/swiggy-replica/static/js/2.69e1953c.chunk.js.LICENSE.txt",
+    "static/media/homepage.dd6eada4.jpeg": "/swiggy-replica/static/media/homepage.dd6eada4.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32cb39ff.js",
+    "static/js/2.69e1953c.chunk.js",
+    "static/css/main.bd6d5ac8.chunk.css",
+    "static/js/main.6ad8ea4a.chunk.js"
+  ]
+}
