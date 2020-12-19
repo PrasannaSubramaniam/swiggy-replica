@@ -6,10 +6,7 @@ import OrdersPage from "./pages/OrdersPage/OrdersPage";
 import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 import MyOrdersPage from "./pages/MyOrdersPage/MyOrdersPage";
 import ChatPage from "./pages/ChatPage/ChatPage";
-// import UserChat from "./pages/ChatPage/UserChat";
-// import AdminChat from "./pages/ChatPage/AdminChat";
-
-// import { requestFirebaseNotificationPermission } from "./firebaseInit";
+import { homepagePrefix } from "./constants";
 
 const App = () => {
   useEffect(() => {
@@ -19,17 +16,10 @@ const App = () => {
     } else if (currentTheme == "light") {
       document.body.classList.toggle("light-mode");
     }
-    // requestFirebaseNotificationPermission()
-    //   .then((firebaseToken) => {
-    //     console.log(firebaseToken);
-    //   })
-    //   .catch((err) => {
-    //     return err;
-    //   });
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={homepagePrefix}>
       <Route exact path={"/"} component={HomePage}></Route>
 
       {/* USER ROUTES */}
@@ -46,7 +36,6 @@ const App = () => {
         path={"/chat"}
         render={(props) => <ChatPage {...props} role="user" />}
       ></Route>
-      {/* <Route exact path={"/chat"} component={ChatPage}></Route> */}
 
       {/* ADMIN ROUTES */}
       <Route
@@ -59,7 +48,6 @@ const App = () => {
         path={"/adminchat"}
         render={(props) => <ChatPage {...props} role="admin" />}
       ></Route>
-      {/* <Route exact path={"/adminchat"} component={AdminChat}></Route> */}
     </BrowserRouter>
   );
 };
