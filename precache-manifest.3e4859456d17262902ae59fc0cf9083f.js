@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ba41ba43078375bb522c8ef314d8c89",
+    "revision": "46b092bdf37f989559f34819f242800d",
     "url": "/swiggy-replica/index.html"
   },
   {
-    "revision": "06ece3e1ff5627ce61b9",
+    "revision": "b30e4bf37e21a820361f",
     "url": "/swiggy-replica/static/css/main.bd6d5ac8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/swiggy-replica/static/js/2.69e1953c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06ece3e1ff5627ce61b9",
-    "url": "/swiggy-replica/static/js/main.6ad8ea4a.chunk.js"
+    "revision": "b30e4bf37e21a820361f",
+    "url": "/swiggy-replica/static/js/main.4605eb9a.chunk.js"
   },
   {
     "revision": "e993d5a8a780283f4030",
