@@ -2,15 +2,14 @@ import React from "react";
 import "./HeaderComponent.css";
 import logo from "../../img/s logo.png";
 
-import { homepagePrefix } from "../../constants";
 import { requestFirebaseNotificationPermission } from "../../firebaseInit";
 
 const HeaderComponent = ({ history, role }) => {
   let home, isUser;
   if (role === "admin") {
-    home = homepagePrefix + "/admin";
+    home = "/admin";
   } else {
-    home = homepagePrefix + "/restaurants";
+    home = "/restaurants";
     isUser = true;
   }
   return (

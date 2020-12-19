@@ -6,7 +6,6 @@ import OrdersPage from "./pages/OrdersPage/OrdersPage";
 import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 import MyOrdersPage from "./pages/MyOrdersPage/MyOrdersPage";
 import ChatPage from "./pages/ChatPage/ChatPage";
-import { homepagePrefix } from "./constants";
 
 const App = () => {
   useEffect(() => {
@@ -19,9 +18,8 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter basename={homepagePrefix}>
+    <BrowserRouter>
       <Route exact path={"/"} component={HomePage}></Route>
-
       {/* USER ROUTES */}
       <Route exact path={"/restaurants"} component={RestaurantsPage}></Route>
       <Route exact path={"/orders/:id"} component={OrdersPage}></Route>
@@ -36,7 +34,6 @@ const App = () => {
         path={"/chat"}
         render={(props) => <ChatPage {...props} role="user" />}
       ></Route>
-
       {/* ADMIN ROUTES */}
       <Route
         exact
